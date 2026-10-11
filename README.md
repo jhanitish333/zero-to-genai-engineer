@@ -153,7 +153,7 @@ S00  Search (TF-IDF)
                                                                         └─ MISSING: the model still talks like a generic assistant  ─►  S15  Fine-Tuning (LoRA / QLoRA)
                                                                              └─ S16 Full-course recap (S00–S15; does not replace S08)
                                                                                   └─ MISSING: even a fine-tuned LLM writes text when you only needed a decision  ─►  S17  Decision Models (RLCD · Jev)
-                                                                                       └─ MISSING: the company still runs a .NET Framework desk  ─►  S18  Final projects (Apex Counter)  ← in progress
+                                                                                       └─ MISSING: the skills still need a product a hiring manager can click  ─►  S18  Final projects  ← you are here
 ```
 
 ---
