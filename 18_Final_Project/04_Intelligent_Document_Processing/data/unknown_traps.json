@@ -1,0 +1,122 @@
+{
+  "refusal_text": "That is not on this page.",
+  "rules": {
+    "answer": "The reply contains value exactly, as a substring. Extra words are allowed. citations has one item: field_id, and box says which rectangle to draw. Draw only that rectangle.",
+    "refuse": "The reply is exactly refusal_text. citations is an empty list. The reply does not contain any string in must_not_include."
+  },
+  "refuse": [
+    {
+      "doc_id": "en_invoice",
+      "question": "What is the vendor mobile number?",
+      "must_not_include": ["+971", "IBAN", "05"]
+    },
+    {
+      "doc_id": "en_invoice",
+      "question": "What is the IBAN?",
+      "must_not_include": ["IBAN", "AE", "+971"]
+    },
+    {
+      "doc_id": "ta_invoice",
+      "question": "விற்பனையாளரின் தொலைபேசி எண் என்ன?",
+      "must_not_include": ["+971", "IBAN", "05"]
+    },
+    {
+      "doc_id": "ar_invoice",
+      "question": "ما رقم هاتف المورّد؟",
+      "must_not_include": ["+971", "IBAN", "05"]
+    },
+    {
+      "doc_id": "en_warehouse_receipt",
+      "question": "What is the tax amount?",
+      "must_not_include": ["92.50", "5%", "1942.50", "1850.00", "0.00"]
+    },
+    {
+      "doc_id": "ar_warehouse_receipt",
+      "question": "ما هو الإجمالي؟",
+      "must_not_include": ["1942.50", "1850.00", "92.50"]
+    },
+    {
+      "doc_id": "mixed_tax_invoice",
+      "question": "What is the vendor mobile number?",
+      "must_not_include": ["+971", "IBAN", "05"]
+    },
+    {
+      "doc_id": "mixed_tax_invoice",
+      "question": "What is the IBAN?",
+      "must_not_include": ["IBAN", "AE", "+971"]
+    }
+  ],
+  "answer": [
+    {
+      "doc_id": "en_invoice",
+      "question": "What is the total?",
+      "value": "1942.50",
+      "field_id": "total",
+      "box": "value"
+    },
+    {
+      "doc_id": "en_invoice",
+      "question": "What is the tax rate?",
+      "value": "5%",
+      "field_id": "tax",
+      "box": "key",
+      "why": "The rate is printed inside the key Tax (5%). The value ink of tax is the amount 92.50."
+    },
+    {
+      "doc_id": "ta_invoice",
+      "question": "விலைப்பட்டியல் எண் என்ன?",
+      "value": "INV-1042",
+      "field_id": "invoice_number",
+      "box": "value"
+    },
+    {
+      "doc_id": "ar_invoice",
+      "question": "ما رقم الفاتورة؟",
+      "value": "INV-1042",
+      "field_id": "invoice_number",
+      "box": "value"
+    },
+    {
+      "doc_id": "en_warehouse_receipt",
+      "question": "Who received the goods?",
+      "value": "Sara Rahman",
+      "field_id": "received_by",
+      "box": "value"
+    },
+    {
+      "doc_id": "ta_warehouse_receipt",
+      "question": "எத்தனை பலகைகள் வந்தன?",
+      "value": "2",
+      "field_id": "quantity",
+      "box": "value"
+    },
+    {
+      "doc_id": "ar_warehouse_receipt",
+      "question": "من استلم البضاعة؟",
+      "value": "Sara Rahman",
+      "field_id": "received_by",
+      "box": "value"
+    },
+    {
+      "doc_id": "mixed_tax_invoice",
+      "question": "What is the English total?",
+      "value": "1942.50",
+      "field_id": "total",
+      "box": "value"
+    },
+    {
+      "doc_id": "mixed_tax_invoice",
+      "question": "ما هو الإجمالي؟",
+      "value": "1942.50",
+      "field_id": "total_ar",
+      "box": "value"
+    },
+    {
+      "doc_id": "mixed_tax_invoice",
+      "question": "What is the TRN?",
+      "value": "100287654300003",
+      "field_id": "trn",
+      "box": "value"
+    }
+  ]
+}

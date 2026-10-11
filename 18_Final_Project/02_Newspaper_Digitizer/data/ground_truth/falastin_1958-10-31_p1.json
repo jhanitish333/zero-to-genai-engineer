@@ -1,0 +1,62 @@
+{
+  "paper": "Falastin",
+  "place": "Jerusalem",
+  "edition": "Friday, 31 October 1958",
+  "language": "ar",
+  "direction": "rtl",
+  "image": "falastin_1958-10-31_p1.png",
+  "width": 1600,
+  "height": 2282,
+  "source": "https://palpapers.net/download/falastin-1958-31-10/",
+  "rights": "Palestinian Papers states that the scanned items are out of copyright and freely downloadable.",
+  "bbox": "Pixels of this PNG. [x, y, width, height], origin at the top left. Arabic is still stored left-to-right in pixel space. The reading order is right to left.",
+  "how_to_read": "Columns run from the right side of the page toward the left. Inside a column, read top to bottom. A headline is read right to left, and if it wraps, the upper line comes before the lower line. A headline beside a photograph starts the article; the body is the text column, not the photograph.",
+  "articles": [
+    {
+      "id": "banner",
+      "title": "Top banner",
+      "blocks": [
+        {
+          "id": "banner_lines",
+          "role": "headline",
+          "order": 1,
+          "bbox": [20, 28, 1550, 157],
+          "text": "Two lines across the top of the page. Read the upper line from right to left, then the lower line from right to left. This banner is not the body of the speech below it."
+        }
+      ]
+    },
+    {
+      "id": "kings_speech",
+      "title": "نص الخطاب القومي الرابع",
+      "blocks": [
+        {
+          "id": "speech_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [40, 395, 1520, 215],
+          "text": "Three lines of the speech headline, including the line that begins الملك يبشر. Read each line right to left, upper line first."
+        },
+        {
+          "id": "speech_photos",
+          "role": "figure",
+          "order": 2,
+          "bbox": [40, 620, 1260, 470],
+          "text": "The photographs under the headline, including the crowd and the king at the microphone. Not an article. Do not OCR them into the speech."
+        },
+        {
+          "id": "speech_body",
+          "role": "body",
+          "order": 3,
+          "bbox": [1320, 620, 230, 470],
+          "text": "The text column on the right of the photographs. This is the speech. Read it top to bottom. The column to its left is not the next paragraph of this speech."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    "The page is Arabic. The first column is the rightmost column, not the leftmost.",
+    "The top banner is its own block. It does not flow into the speech headline under the masthead.",
+    "The speech headline is three lines. The body is only the text column to the right of the photographs.",
+    "The headline under the photographs, استقبالات شعبية رائعة للمليك, is the next article. It is not the end of the speech column."
+  ]
+}

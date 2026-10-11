@@ -126,7 +126,7 @@ Every weekend is notebooks you actually run. Most also leave you with an app, a 
 | Decision models (S17) | Deck + 19 Jev labs + 3-model comparison | [`17_Decision_Models/`](./17_Decision_Models/) — RLCD, Jev, Strands Decider 2B, OpenAI Decisions |
 | Shippable apps in this repo | **11+** | See [Projects](#-projects-you-can-ship) |
 
-Quick naming trap: folder `10_RAG/` is session **S10**, which covers modules **M07 + M08 + M06** (memory went into the RAG chatbot, not its own weekend). `11_LangGraph/` is session **S11** = module **M10**. `12_deepagents/` is **S12**. `13_Project_Implementation/` is **S13** (Dining Bot). `14_Bedrock_AgentCore/` is **S14** — six sub-labs numbered `01.` → `06.`. `15_LLM_Fine_Tuning/` is **S15** (LoRA / QLoRA). `16_Full_Course_Recap/` recaps S00–S15 and does **not** replace S08. `17_Decision_Models/` is **S17**. S14 goes beyond the original 23-module syllabus (see [Module map](#-where-the-23-module-syllabus-stands)).
+Quick naming trap: folder `10_RAG/` is session **S10**, which covers modules **M07 + M08 + M06** (memory went into the RAG chatbot, not its own weekend). `11_LangGraph/` is session **S11** = module **M10**. `12_deepagents/` is **S12**. `13_Project_Implementation/` is **S13** (Dining Bot). `14_Bedrock_AgentCore/` is **S14** — six sub-labs numbered `01.` → `06.`. `15_LLM_Fine_Tuning/` is **S15** (LoRA / QLoRA). `16_Full_Course_Recap/` recaps S00–S15 and does **not** replace S08. `17_Decision_Models/` is **S17**. `18_Final_Project/` is **S18**. S14 goes beyond the original 23-module syllabus (see [Module map](#-where-the-23-module-syllabus-stands)).
 
 ---
 
@@ -152,7 +152,8 @@ S00  Search (TF-IDF)
                                                                    └─ MISSING: ship it — cloud, identity, real users  ─►  S14  Bedrock AgentCore + AWS
                                                                         └─ MISSING: the model still talks like a generic assistant  ─►  S15  Fine-Tuning (LoRA / QLoRA)
                                                                              └─ S16 Full-course recap (S00–S15; does not replace S08)
-                                                                                  └─ MISSING: even a fine-tuned LLM writes text when you only needed a decision  ─►  S17  Decision Models (RLCD · Jev)  ← you are here
+                                                                                  └─ MISSING: even a fine-tuned LLM writes text when you only needed a decision  ─►  S17  Decision Models (RLCD · Jev)
+                                                                                       └─ MISSING: the company still runs a .NET Framework desk  ─►  S18  Final projects (Apex Counter)  ← in progress
 ```
 
 ---
@@ -196,6 +197,7 @@ One numbered folder per weekend. Open that folder's README first. Class slides a
 | [`15_LLM_Fine_Tuning/`](./15_LLM_Fine_Tuning/) | S15 | **[Start here](./15_LLM_Fine_Tuning/README.md)** — PEFT / LoRA / QLoRA classroom deck + Unsloth notebook |
 | [`16_Full_Course_Recap/`](./16_Full_Course_Recap/) | Recap | **[Start here](./16_Full_Course_Recap/README.md)** — interactive S00→S15 classroom recap (separate from [S08](./08_Recap/)) |
 | [`17_Decision_Models/`](./17_Decision_Models/) | S17 | **[Start here](./17_Decision_Models/README.md)** — RLCD / Jev classroom deck, 19 Jev use cases, Jev vs Strands vs OpenAI Decisions |
+| [`18_Final_Project/`](./18_Final_Project/) | S18 | **[Start here](./18_Final_Project/README.md)** — final projects. [01 Talking Avatar](./18_Final_Project/01_AI_Talking_Avatar/) · [02 Newspaper](./18_Final_Project/02_Newspaper_Digitizer/) · [03 Apex Counter](./18_Final_Project/03_Apex_Counter/) · [04 Document desk](./18_Final_Project/04_Intelligent_Document_Processing/) |
 
 S11 extra (separate repo, not in this clone): [Medium article agent](https://github.com/nursnaaz/medium-article-agent).
 
@@ -224,6 +226,7 @@ S11 extra (separate repo, not in this clone): [Medium article agent](https://git
 | [S15](./15_LLM_Fine_Tuning/) | LLM Fine-Tuning | RAG vs fine-tune decision · PEFT · LoRA · quantization · QLoRA · Unsloth lab | [Fine-tuning deck](https://nursnaaz.github.io/zero-to-genai-engineer/15_LLM_Fine_Tuning/teaching_decks/teach_01_finetuning_lora_qlora.html) |
 | [S16](./16_Full_Course_Recap/) | Full-course recap | Interactive pass of S00–S15 (does not replace S08) | [Recap deck](https://nursnaaz.github.io/zero-to-genai-engineer/16_Full_Course_Recap/RECAP_S00_S15_INTERACTIVE.html) |
 | [S17](./17_Decision_Models/) | Decision Models | RLCD · Jev · 19 use cases · Strands Decider + OpenAI Decisions | [RLCD / Jev deck](https://nursnaaz.github.io/zero-to-genai-engineer/17_Decision_Models/teaching_decks/teach_01_rlcd_jev.html) |
+| [S18](./18_Final_Project/) | Final projects | [01 Talking Avatar](./18_Final_Project/01_AI_Talking_Avatar/) · [02 Newspaper](./18_Final_Project/02_Newspaper_Digitizer/) · [03 Apex Counter](./18_Final_Project/03_Apex_Counter/) · [04 Document desk](./18_Final_Project/04_Intelligent_Document_Processing/) | [Expected avatar demo](https://nursnaaz.github.io/zero-to-genai-engineer/18_Final_Project/01_AI_Talking_Avatar/expected_demo/) |
 
 ---
 
@@ -754,10 +757,31 @@ Copy [`17_Decision_Models/Jev/.env.example`](./17_Decision_Models/Jev/.env.examp
 
 ---
 
+### S18 — Final projects
+
+> **MISSING from S17:** a decision model can tell you which call is safe. It does not modernize the .NET Framework desk the company still runs.
+
+**Start page:** [`18_Final_Project/README.md`](./18_Final_Project/)
+
+| Open | What it is |
+|---|---|
+| [01 AI Talking Avatar](./18_Final_Project/01_AI_Talking_Avatar/) | Airport kiosk: listen, retrieve from the NIA corpus, speak, Ditto talking head. Voice is Nova Sonic **or** Wispr + Kokoro. [Expected demo](https://nursnaaz.github.io/zero-to-genai-engineer/18_Final_Project/01_AI_Talking_Avatar/expected_demo/) |
+| [02 Newspaper Digitizer](./18_Final_Project/02_Newspaper_Digitizer/) | A fictional 1954 page in English and Tamil. PaddleOCR boxes, then a local decision model groups each article. No vision model. |
+| [03 Apex Counter](./18_Final_Project/03_Apex_Counter/) | ASP.NET Web Forms on .NET Framework 4.0, ported with AWS Transform to Blazor Server on .NET 8. Same SQL Server tables. Windows + Visual Studio. |
+| [04 Intelligent Document Desk](./18_Final_Project/04_Intelligent_Document_Processing/) | English uses Textract boxes. Tamil and Arabic use PaddleOCR boxes plus a Bedrock vision model. Click a value and the box lands on the ink. |
+
+Apex Counter ships the legacy Web Forms app. Students convert a copy with AWS Transform, then run the ground-truth, evaluate, and repair prompts in that project's README.
+
+---
+
 ## 🏗️ Projects you can ship
 
 | Project | Session | Stack | What it is |
 |---|---|---|---|
+| **[01 AI Talking Avatar](./18_Final_Project/01_AI_Talking_Avatar/)** | S18 | Sonic or Wispr+Kokoro, ChromaDB, Ditto, FastAPI | Airport guide that listens, retrieves, speaks, and lip-syncs a photo |
+| **[02 Newspaper Digitizer](./18_Final_Project/02_Newspaper_Digitizer/)** | S18 | PaddleOCR, Strands Decider 2B, Streamlit | Group a 1954 newspaper page into articles. Local decision model. English and Tamil. |
+| **[03 Apex Counter](./18_Final_Project/03_Apex_Counter/)** | S18 | ASP.NET Web Forms on .NET Framework 4.0 → Blazor Server on .NET 8, SQL Server | Legacy parts desk. AWS Transform does the port. Students make the Blazor app match. Windows only. |
+| **[04 Intelligent Document Desk](./18_Final_Project/04_Intelligent_Document_Processing/)** | S18 | Textract, PaddleOCR, Bedrock vision, FastAPI | Click a field on an English, Tamil, or Arabic page and the box lands on the ink. |
 | **[Strands Support Copilot on AWS](./14_Bedrock_AgentCore/05.agentcore-production-deploy/)** | S14 | Strands, Bedrock AgentCore, Cognito, React, FastAPI, CDK | Full-stack cloud deploy: JWT-gated chat UI on CloudFront, App Runner API, IAM-invoked agent Runtime — no keys in the browser |
 | **[Dining Bot](./13_Project_Implementation/)** | S13 | LangGraph, Deep Agents, RAG, SQLite, MCP, HITL | Teach `dining_bot.py`; run modular `app.py` + `dining_bot/` package + sample DB |
 | **[Self-Correcting Agentic RAG](./11_LangGraph/capstone_agentic_rag/)** | S11 extra | LangGraph, RAGAS, Streamlit | Grade → rewrite → groundedness loop → escalate |
@@ -978,6 +1002,9 @@ S04, S06, S07, S09, S10e, and S10g are notebook- or guide-led. S11c is the [Stre
 
 | Date | What shipped |
 |---|---|
+| 2026-10-11 | **S18** — AI Talking Avatar assignment: NIA corpus, finish line, expected demo. Voice is Nova Sonic or Wispr + Kokoro. Ditto is required for the face. |
+| 2026-10-11 | **S18** — Newspaper Digitizer: fictional 1954 English and Tamil pages, PaddleOCR boxes, local decision model for reading order. Apex Counter and the document desk are separate projects in the same session. |
+| 2026-10-11 | **S18 started** — Apex Counter: .NET Framework 4.0 Web Forms legacy desk and shared SQL Server schema. Students convert a copy with AWS Transform, then run ground-truth, evaluate, and repair agents. |
 | 2026-10-10 | **S17** — Decision Models: RLCD / Jev classroom deck, 19 Jev use cases, Jev vs Strands Decider 2B vs OpenAI Decisions |
 | 2026-09-25 → 2026-09-27 | **S15** — LLM Fine-Tuning: RAG vs fine-tune decision, PEFT / LoRA / QLoRA classroom deck, Unsloth notebook. **S13** modular `dining_bot/` package + `app.py` entry + extra skills |
 | 2026-09-06 → 2026-09-19 | **S14** — Bedrock AgentCore: LangGraph / Strands / CrewAI agents on a managed Runtime (labs 01–03), a local framework-comparison notebook (lab 04), and a full Cognito + React + FastAPI + CDK AWS deploy taught two ways (lab 05 staged CDK, lab 06 progressive folders) |

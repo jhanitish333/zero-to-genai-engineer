@@ -1,0 +1,88 @@
+{
+  "paper": "The Harbour Ledger",
+  "edition": "Madras, Thursday 12 August 1954",
+  "language": "en",
+  "image": "harbour_ledger_en.png",
+  "note": "Blocks inside each article are the reading order. There are no pixel boxes here on purpose.",
+  "articles": [
+    {
+      "id": "dock_strike",
+      "title": "DOCK STRIKE ENDS AT DAWN",
+      "blocks": [
+        {
+          "role": "headline",
+          "text": "DOCK STRIKE ENDS AT DAWN"
+        },
+        {
+          "role": "body",
+          "text": "The night shift at the Madras harbour put down its placards before sunrise. Stevedores voted to accept the new wage and return to the cranes. Ships that had waited in the roads since Monday will begin to unload this afternoon. The port officer said the first lighter would leave the quay at four."
+        },
+        {
+          "role": "body",
+          "text": "Families who had slept on the wharf collected their mats and walked home. Tea stalls along the First Line reopened. A clerk at the harbour office told this paper that the mail boat would keep her posted hour once the tide turned."
+        }
+      ]
+    },
+    {
+      "id": "temple_festival",
+      "title": "TEMPLE FESTIVAL DRAWS CROWDS",
+      "blocks": [
+        {
+          "role": "headline",
+          "text": "TEMPLE FESTIVAL DRAWS CROWDS"
+        },
+        {
+          "role": "body",
+          "text": "The car festival at the Kapaleeswarar temple filled the Mylapore streets by noon. Drummers led the chariot from the east gate. Police kept a lane open for the tram, which still ran late."
+        },
+        {
+          "role": "body",
+          "text": "By evening the chariot had reached the tank. Women sold jasmine at the rail. The trustee said the procession would rest there overnight and return at dawn. This paper will print the route again tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "tram_fare",
+      "title": "NEW TRAM FARE FROM MONDAY",
+      "blocks": [
+        {
+          "role": "headline",
+          "text": "NEW TRAM FARE FROM MONDAY"
+        },
+        {
+          "role": "body",
+          "text": "The city tramways will charge one anna more on the long routes from Monday. The short stage inside the Fort stays the same. Conductors were told to post the new card in each car tonight. School tickets are unchanged."
+        }
+      ]
+    },
+    {
+      "id": "monsoon",
+      "title": "MONSOON WARNING FOR THE COAST",
+      "blocks": [
+        {
+          "role": "headline",
+          "text": "MONSOON WARNING FOR THE COAST"
+        },
+        {
+          "role": "body",
+          "text": "The weather office warned that a fresh monsoon surge will cross the coast late tonight. Fishing boats at Royapuram were asked to stay in."
+        },
+        {
+          "role": "caption",
+          "text": "Rain over the harbour mouth, seen from the lighthouse road yesterday evening."
+        },
+        {
+          "role": "body",
+          "text": "Residents of the low streets behind the beach should move their stores upstairs. The collector's office will open a shelter at the corporation school. No train has been cancelled. The warning does not name a cyclone."
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "monsoon_photo",
+      "article_id": "monsoon",
+      "caption": "Rain over the harbour mouth, seen from the lighthouse road yesterday evening."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "paper": "The Newmarket Era and Express",
+  "place": "Newmarket, Ontario",
+  "edition": "Thursday, 31 January 1952",
+  "language": "en",
+  "direction": "ltr",
+  "image": "newmarket_1952-01-31_p1.png",
+  "width": 1600,
+  "height": 2055,
+  "source": "https://archive.org/details/NewmarketEraAndExpress_847",
+  "rights": "Internet Archive marks this item Public Domain. https://creativecommons.org/publicdomain/mark/1.0/",
+  "bbox": "Pixels of this PNG. [x, y, width, height], origin at the top left.",
+  "how_to_read": "Left to right across headlines only when one headline spans those columns. A headline beside another headline is a different article. Inside an article, read the left column top to bottom, then the next column of THAT article. A line that says the story continues on another page ends the article on this page.",
+  "articles": [
+    {
+      "id": "health_clinic",
+      "title": "York County Health Unit clinic",
+      "blocks": [
+        {
+          "id": "clinic_photo",
+          "role": "figure",
+          "order": 1,
+          "bbox": [64, 227, 693, 420],
+          "text": "Photograph of mothers and children in the health-unit office. Not an article."
+        },
+        {
+          "id": "clinic_caption_left",
+          "role": "caption",
+          "order": 2,
+          "bbox": [48, 652, 360, 83],
+          "text": "In the spacious offices of the York County Health Unit, 126 Main St., Newmarket, mothers waited with their children last Friday afternoon for a health check-up in the monthly child health clinic."
+        },
+        {
+          "id": "clinic_caption_right",
+          "role": "caption",
+          "order": 3,
+          "bbox": [418, 652, 352, 83],
+          "text": "find out the right kind of foods for them and even learn a bit of psychology. Above Mrs. Herb Dunham. Below, Mrs. Bob Lewis weighs Marie. Era and Express photo."
+        },
+        {
+          "id": "clinic_photo_below",
+          "role": "figure",
+          "order": 4,
+          "bbox": [400, 745, 390, 360],
+          "text": "The smaller photograph under the right half of the caption. The caption calls it 'Below'. It belongs to this story, not to King City Woman and not to Sutton Drive."
+        }
+      ]
+    },
+    {
+      "id": "sutton_drive",
+      "title": "Sutton Drive Brings $1,400 For Cheveignes",
+      "blocks": [
+        {
+          "id": "sutton_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [798, 218, 192, 142],
+          "text": "Sutton Drive Brings $1,400 For Cheveignes"
+        },
+        {
+          "id": "sutton_body",
+          "role": "body",
+          "order": 2,
+          "bbox": [798, 366, 192, 554],
+          "text": "Nearly $1,400 has been raised for Maurice de Cheveigne of Sutton, who lost his barn. The story stays in this column. It does not continue into the school-board column on its right."
+        }
+      ]
+    },
+    {
+      "id": "school_board",
+      "title": "School Board Appoints Pritchard Secretary By A Technical Vote",
+      "blocks": [
+        {
+          "id": "school_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [996, 210, 359, 150],
+          "text": "School Board Appoints Pritchard Secretary By A Technical Vote"
+        },
+        {
+          "id": "school_body_left",
+          "role": "body",
+          "order": 2,
+          "bbox": [996, 366, 189, 734],
+          "text": "Robert Pritchard was re-appointed secretary-treasurer. Read this column before the column on its right."
+        },
+        {
+          "id": "school_body_right",
+          "role": "body",
+          "order": 3,
+          "bbox": [1190, 366, 175, 564],
+          "text": "were other school board matters that went on. This column ends with a jump line, (Page 7, Col. 4). Do not glue it to Mount Albert and do not glue it to Township Says Restrictions."
+        }
+      ]
+    },
+    {
+      "id": "mount_albert",
+      "title": "Mount Albert Man Killed, Hit By Tree",
+      "blocks": [
+        {
+          "id": "albert_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [1370, 210, 205, 150],
+          "text": "Mount Albert Man Killed, Hit By Tree"
+        },
+        {
+          "id": "albert_body",
+          "role": "body",
+          "order": 2,
+          "bbox": [1370, 366, 205, 564],
+          "text": "Struck by a falling tree while working in a woodlot in Vivian forest, Nathan Oldham, Mount Albert, died. This column ends above the planning story."
+        }
+      ]
+    },
+    {
+      "id": "township_planning",
+      "title": "Township Says Restrictions On Planning Are 'Arbitrary'",
+      "blocks": [
+        {
+          "id": "planning_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [1200, 930, 370, 100],
+          "text": "Township Says Restrictions On Planning Are 'Arbitrary'"
+        }
+      ]
+    },
+    {
+      "id": "king_city_woman",
+      "title": "King City Woman Critically Hurt",
+      "blocks": [
+        {
+          "id": "king_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [20, 745, 370, 55],
+          "text": "King City Woman Critically Hurt"
+        }
+      ]
+    }
+  ],
+  "traps": [
+    "Three headlines sit side by side under the masthead. Each one opens its own article. Do not read across them as one story.",
+    "The school-board headline covers two columns. Its body goes down the left of those two, then down the right. The right-hand column is not the Mount Albert story.",
+    "The caption under the big photograph is one caption set in two columns. Read the left column, then the right column. The smaller photograph under the right column belongs to that caption.",
+    "The school-board story stops at (Page 7, Col. 4). Nothing else on this page is the rest of that story."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "paper": "செட்டிநாடு",
+  "place": "Devakottai",
+  "edition": "October–November 1955, printed page 8. The date line on this page reads மன்மத ஜப்பசி 17.",
+  "kind": "Weekly (வார இதழ்), not a daily. This is the Tamil page students run, test, and score.",
+  "language": "ta",
+  "direction": "ltr",
+  "image": "chettinadu_1955-10_p8.png",
+  "width": 1600,
+  "height": 2533,
+  "source": "https://archive.org/details/acc.-no.-33771-chettinadu-1955-nov-dec",
+  "source_file": "Acc.No.33771-Chettinadu-1955-Oct-Nov.pdf, page 39 of that PDF (printed page 8).",
+  "rights": "Internet Archive marks this item Public Domain. https://creativecommons.org/publicdomain/mark/1.0/",
+  "bbox": "Pixels of this PNG. [x, y, width, height], origin at the top left.",
+  "how_to_read": "Tamil on this page is left to right, top to bottom inside a column. The right column is not the next column of the left-hand article. It is the rest of a story that started on the previous page. The picture, the line above it, and the verse under it are one plate. The new article starts at the headline கமல ஞானப்பிரகாசர் and stays in the left column.",
+  "furniture": [
+    {
+      "id": "page_number",
+      "role": "banner",
+      "bbox": [56, 194, 48, 46],
+      "text": "8"
+    },
+    {
+      "id": "masthead",
+      "role": "banner",
+      "bbox": [1165, 140, 375, 123],
+      "text": "செட்டிநாடு. Running title at the top of the right column. Not the start of the story under it."
+    },
+    {
+      "id": "wordmark",
+      "role": "banner",
+      "bbox": [76, 1294, 703, 208],
+      "text": "செட்டிநாடு. The large name in the left column, under the verse. It is the paper's name, not a headline and not a paragraph."
+    },
+    {
+      "id": "date_line",
+      "role": "banner",
+      "bbox": [116, 1571, 592, 87],
+      "text": "மன்மத ஜப்பசி 17. The Tamil date under the name. It does not continue the verse, and it is not the body of the article below."
+    }
+  ],
+  "articles": [
+    {
+      "id": "saint_plate",
+      "title": "Picture and verse",
+      "blocks": [
+        {
+          "id": "invocation",
+          "role": "caption",
+          "order": 1,
+          "bbox": [202, 420, 492, 123],
+          "text": "The short lines above the picture, beginning சிவமயம். They belong to the picture."
+        },
+        {
+          "id": "saint_picture",
+          "role": "figure",
+          "order": 2,
+          "bbox": [98, 552, 633, 555],
+          "text": "The framed drawing of the standing figure. Not an article."
+        },
+        {
+          "id": "kural",
+          "role": "caption",
+          "order": 3,
+          "bbox": [42, 1157, 728, 107],
+          "text": "அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு. The verse under the picture. It is the caption, not the first paragraph of கமல ஞானப்பிரகாசர்."
+        }
+      ]
+    },
+    {
+      "id": "kamala",
+      "title": "கமல ஞானப்பிரகாசர்",
+      "blocks": [
+        {
+          "id": "kamala_headline",
+          "role": "headline",
+          "order": 1,
+          "bbox": [81, 1767, 697, 178],
+          "text": "கமல ஞானப்பிரகாசர்"
+        },
+        {
+          "id": "kamala_body",
+          "role": "body",
+          "order": 2,
+          "bbox": [71, 1989, 705, 284],
+          "text": "தருமையாதீனத்தை நிறுவிய முதற்பேரும் குருவாகிய குருஞான சம்பந்த மூர்த்திகளுக்கு ஞானோபதேசம் புரிந்தவர் கமல ஞானப்பிரகாசர். This body stays in the left column. It does not continue into the right column."
+        }
+      ]
+    },
+    {
+      "id": "desikar",
+      "title": "Continuation, no headline on this page",
+      "blocks": [
+        {
+          "id": "desikar_body",
+          "role": "body",
+          "order": 1,
+          "bbox": [824, 320, 746, 1958],
+          "text": "The whole right column, from காச தேசிகர் through the paragraph that begins இவர் காவிரிக் கரையிலுள்ள. One story, continued from the previous page. The blank line before இவர் is a paragraph break inside this story, not a new article. Do not attach this column to கமல ஞானப்பிரகாசர்."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    "The right column has no headline. It is still not the next column of கமல ஞானப்பிரகாசர். That story already started on the previous page. The predecessor of this column is none.",
+    "The verse under the picture is the caption of the picture. The large செட்டிநாடு and the date மன்மத ஜப்பசி 17 sit between that caption and the headline. They are not body text.",
+    "கமல ஞானப்பிரகாசர் begins at its own headline and ends at the bottom of the left column. The page number and the top-right செட்டிநாடு are furniture."
+  ]
+}

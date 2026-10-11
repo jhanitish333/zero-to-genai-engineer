@@ -1,0 +1,649 @@
+{
+  "paper": "El Paso Herald",
+  "place": "El Paso, Texas",
+  "edition": "Friday evening, August 20, 1920. Home edition. Page 1 of 14.",
+  "language": "en",
+  "direction": "ltr",
+  "image": "elpaso_herald_1920-08-20_p1.png",
+  "width": 1500,
+  "height": 1795,
+  "source": "https://texashistory.unt.edu/ark:/67531/metapth137750/",
+  "rights": "The Portal to Texas History marks this issue Public Domain. It was published in 1920.",
+  "bbox": "Pixels of this PNG. [x, y, width, height], origin at the top left.",
+  "how_to_score": "Each article is the list of boxes under it. Those boxes are one story and must be merged. A box from one article must not be merged into another. The order of the boxes is the reading order. Compare regions, not OCR text. The print is faint. An engine that returns only the headlines has not read the page, and it can still be scored on these boxes.",
+  "articles": [
+    {
+      "id": "polish_war",
+      "title": "French Lead Pole Army to Victory",
+      "boxes": [
+        {
+          "id": "banner",
+          "role": "headline",
+          "bbox": [
+            55,
+            136,
+            1390,
+            86
+          ],
+          "text": "FRENCH LEAD POLE ARMY TO VICTORY"
+        },
+        {
+          "id": "cities_headline",
+          "role": "headline",
+          "bbox": [
+            1105,
+            224,
+            340,
+            216
+          ],
+          "text": "Many Cities Taken, Reds Are in Flight in All Directions. The deck under it, beginning Six Hundred French Officers, is part of this headline."
+        },
+        {
+          "id": "war_body_left",
+          "role": "body",
+          "bbox": [
+            1105,
+            446,
+            178,
+            626
+          ],
+          "text": "The left column of the war story, from the Warsaw dateline down to the line before HAREMS CUT."
+        },
+        {
+          "id": "war_body_right",
+          "role": "body",
+          "bbox": [
+            1300,
+            446,
+            148,
+            466
+          ],
+          "text": "The right column of the same story, from under the deck down to the line before U.S.S. Panther."
+        }
+      ]
+    },
+    {
+      "id": "harems",
+      "title": "Harems Cut Down by War and High Cost",
+      "boxes": [
+        {
+          "id": "harems_all",
+          "role": "body",
+          "bbox": [
+            1105,
+            1076,
+            178,
+            588
+          ],
+          "text": "Headline and body. This column only. It does not include Mary Roberts Rinehart."
+        }
+      ]
+    },
+    {
+      "id": "panther",
+      "title": "U.S.S. Panther Soon Leaves for Baltic Sea",
+      "boxes": [
+        {
+          "id": "panther_all",
+          "role": "body",
+          "bbox": [
+            1300,
+            916,
+            148,
+            84
+          ],
+          "text": "The short item under the war story's right column."
+        }
+      ]
+    },
+    {
+      "id": "liquor",
+      "title": "Arizona Liquor Poisonous; Is Sold Under False Labels",
+      "boxes": [
+        {
+          "id": "liquor_all",
+          "role": "body",
+          "bbox": [
+            1300,
+            1004,
+            148,
+            128
+          ],
+          "text": "Headline and body, above Mary Roberts Rinehart."
+        }
+      ]
+    },
+    {
+      "id": "mary_rinehart",
+      "title": "Mary Roberts Rinehart Will Attend Hopi Dance",
+      "boxes": [
+        {
+          "id": "mary_all",
+          "role": "body",
+          "bbox": [
+            1300,
+            1136,
+            148,
+            124
+          ],
+          "text": "Headline and body."
+        }
+      ]
+    },
+    {
+      "id": "talks_wife",
+      "title": "Talks With Wife in Chicago From a Colorado Peak",
+      "boxes": [
+        {
+          "id": "talks_all",
+          "role": "body",
+          "bbox": [
+            1300,
+            1264,
+            148,
+            182
+          ],
+          "text": "Headline and body, above Here's a Kick."
+        }
+      ]
+    },
+    {
+      "id": "kick",
+      "title": "Here's a Kick That Is a Real Kick",
+      "boxes": [
+        {
+          "id": "kick_all",
+          "role": "body",
+          "bbox": [
+            1300,
+            1450,
+            148,
+            214
+          ],
+          "text": "Headline and body, down to the footer."
+        }
+      ]
+    },
+    {
+      "id": "mysterious_woman",
+      "title": "Mysterious Woman in White Makes War on Russian Soviet",
+      "boxes": [
+        {
+          "id": "woman_all",
+          "role": "body",
+          "bbox": [
+            938,
+            228,
+            160,
+            278
+          ],
+          "text": "Headline and body, ending at dead or alive."
+        }
+      ]
+    },
+    {
+      "id": "infant",
+      "title": "Faces Her Second Charge of Killing New Born Infant",
+      "boxes": [
+        {
+          "id": "infant_all",
+          "role": "body",
+          "bbox": [
+            938,
+            510,
+            160,
+            186
+          ],
+          "text": "Headline and body, above Baker Covers Up."
+        }
+      ]
+    },
+    {
+      "id": "baker",
+      "title": "Baker Covers Up List of Slackers",
+      "boxes": [
+        {
+          "id": "baker_all",
+          "role": "body",
+          "bbox": [
+            938,
+            700,
+            160,
+            316
+          ],
+          "text": "Headline and body, above Tama Jim Wilson."
+        }
+      ]
+    },
+    {
+      "id": "tama_jim",
+      "title": "Tama Jim Wilson, 86, Is Near Death",
+      "boxes": [
+        {
+          "id": "tama_all",
+          "role": "body",
+          "bbox": [
+            938,
+            1020,
+            160,
+            96
+          ],
+          "text": "Headline and body, above High Water."
+        }
+      ]
+    },
+    {
+      "id": "high_water",
+      "title": "High Water Washes Out Katy Tracks and Bridges",
+      "boxes": [
+        {
+          "id": "water_all",
+          "role": "body",
+          "bbox": [
+            938,
+            1118,
+            160,
+            146
+          ],
+          "text": "Headline and body, above Hunger Strikers."
+        }
+      ]
+    },
+    {
+      "id": "hunger",
+      "title": "Hunger Strikers Start Jail Riot; Hose Quiets 'Em",
+      "boxes": [
+        {
+          "id": "hunger_all",
+          "role": "body",
+          "bbox": [
+            938,
+            1266,
+            160,
+            292
+          ],
+          "text": "Headline and body, above the household ad."
+        }
+      ]
+    },
+    {
+      "id": "ads_table",
+      "title": "Ads May Help You Select for the Table",
+      "boxes": [
+        {
+          "id": "ads_all",
+          "role": "body",
+          "bbox": [
+            938,
+            1560,
+            160,
+            104
+          ],
+          "text": "A boxed advertisement. Not part of the hunger strike."
+        }
+      ]
+    },
+    {
+      "id": "ponzi",
+      "title": "Ponzi Debts Are $7,000,000 or More",
+      "boxes": [
+        {
+          "id": "ponzi_all",
+          "role": "body",
+          "bbox": [
+            756,
+            224,
+            176,
+            584
+          ],
+          "text": "Headline, decks, and body. Ends at the receivers' names, above the Villa headline."
+        }
+      ]
+    },
+    {
+      "id": "villa",
+      "title": "Threat to Demand Pershing Stopped Extradition of Villa, Says La Prensa",
+      "boxes": [
+        {
+          "id": "villa_headline",
+          "role": "headline",
+          "bbox": [
+            588,
+            812,
+            344,
+            64
+          ],
+          "text": "One headline across the Allendorf column and the Ponzi column."
+        },
+        {
+          "id": "villa_body",
+          "role": "body",
+          "bbox": [
+            588,
+            878,
+            158,
+            316
+          ],
+          "text": "The body is only the left column, down to the line before Strikers in Veracruz. Ain't It Wonderful is not this story."
+        }
+      ]
+    },
+    {
+      "id": "wonderful",
+      "title": "Ain't It Wonderful What Nature Can Do If She Really Tries?",
+      "boxes": [
+        {
+          "id": "wonderful_all",
+          "role": "body",
+          "bbox": [
+            756,
+            878,
+            176,
+            192
+          ],
+          "text": "The boxed Quincy item under the right half of the Villa headline. Ends at the bishop, above New Governor."
+        }
+      ]
+    },
+    {
+      "id": "governor",
+      "title": "New Governor Closes Gaming at Tia Juana",
+      "boxes": [
+        {
+          "id": "governor_all",
+          "role": "body",
+          "bbox": [
+            756,
+            1072,
+            176,
+            466
+          ],
+          "text": "Headline and body, through the pacification of Mexico, above Political Trouble."
+        }
+      ]
+    },
+    {
+      "id": "political",
+      "title": "Political Trouble Points to Death of Cattleman",
+      "boxes": [
+        {
+          "id": "political_all",
+          "role": "body",
+          "bbox": [
+            756,
+            1544,
+            176,
+            68
+          ],
+          "text": "Headline and body, including Continued on page 4, column 3."
+        }
+      ]
+    },
+    {
+      "id": "circulation_ad",
+      "title": "Approved circulation advertisement",
+      "boxes": [
+        {
+          "id": "circ_all",
+          "role": "body",
+          "bbox": [
+            756,
+            1618,
+            176,
+            46
+          ],
+          "text": "The dotted advertisement for the Herald's circulation. Not the cattleman story."
+        }
+      ]
+    },
+    {
+      "id": "allendorf",
+      "title": "Allendorf, Deported From Mexico, Is Due to Arrive Here Today",
+      "boxes": [
+        {
+          "id": "allendorf_headline",
+          "role": "headline",
+          "bbox": [
+            588,
+            228,
+            158,
+            78
+          ],
+          "text": "The headline in the box above the photograph."
+        },
+        {
+          "id": "allendorf_photo",
+          "role": "figure",
+          "bbox": [
+            588,
+            308,
+            158,
+            336
+          ],
+          "text": "The photograph of the man in uniform."
+        },
+        {
+          "id": "allendorf_caption",
+          "role": "caption",
+          "bbox": [
+            588,
+            646,
+            158,
+            42
+          ],
+          "text": "Dr. Paul B. Allendorf."
+        },
+        {
+          "id": "allendorf_body",
+          "role": "body",
+          "bbox": [
+            588,
+            690,
+            158,
+            116
+          ],
+          "text": "The body under the name, ending at guarded by two army officers."
+        }
+      ]
+    },
+    {
+      "id": "votes",
+      "title": "Votes of Women Puzzle Both Parties",
+      "boxes": [
+        {
+          "id": "votes_all",
+          "role": "body",
+          "bbox": [
+            416,
+            224,
+            164,
+            852
+          ],
+          "text": "Headline, decks, and body, including Continued on page 4, column 1."
+        }
+      ]
+    },
+    {
+      "id": "tennessee",
+      "title": "Anti-Suffrage Men Lose Out in Tennessee",
+      "boxes": [
+        {
+          "id": "tennessee_all",
+          "role": "body",
+          "bbox": [
+            416,
+            1082,
+            164,
+            582
+          ],
+          "text": "Headline, deck, and body, down to the footer."
+        }
+      ]
+    },
+    {
+      "id": "ortiz",
+      "title": "Ortiz Killing Opens Fight Between City and County Officers",
+      "boxes": [
+        {
+          "id": "ortiz_all",
+          "role": "body",
+          "bbox": [
+            56,
+            224,
+            352,
+            1012
+          ],
+          "text": "Headline, deck, and body, including Continued on page 5, column 5. Does not include Court Clerk or Leg Broken."
+        }
+      ]
+    },
+    {
+      "id": "court_clerk",
+      "title": "Court Clerk in Jail in $24,000 Cash Bail Theft",
+      "boxes": [
+        {
+          "id": "court_all",
+          "role": "body",
+          "bbox": [
+            56,
+            1238,
+            174,
+            258
+          ],
+          "text": "The left column under the Ortiz story, above Headliners in Today's Theaters."
+        }
+      ]
+    },
+    {
+      "id": "theaters",
+      "title": "Headliners in Today's Theaters",
+      "boxes": [
+        {
+          "id": "theaters_all",
+          "role": "body",
+          "bbox": [
+            56,
+            1498,
+            174,
+            166
+          ],
+          "text": "The boxed list of theater headlines."
+        }
+      ]
+    },
+    {
+      "id": "leg_broken",
+      "title": "Leg Broken, Man Lives on Desert for Seven Days",
+      "boxes": [
+        {
+          "id": "leg_all",
+          "role": "body",
+          "bbox": [
+            238,
+            1238,
+            170,
+            354
+          ],
+          "text": "The right column under the Ortiz story, above the bank-note warning."
+        }
+      ]
+    },
+    {
+      "id": "bank_notes",
+      "title": "Warning Is Issued Against Forged Italian Bank Notes",
+      "boxes": [
+        {
+          "id": "bank_all",
+          "role": "body",
+          "bbox": [
+            238,
+            1596,
+            170,
+            68
+          ],
+          "text": "Headline and body under the desert story."
+        }
+      ]
+    },
+    {
+      "id": "strikers",
+      "title": "Strikers in Veracruz Appeal to de la Huerta",
+      "boxes": [
+        {
+          "id": "strikers_all",
+          "role": "body",
+          "bbox": [
+            588,
+            1198,
+            164,
+            206
+          ],
+          "text": "Headline and body, above And They Say Texas Is a Bone Dry State."
+        }
+      ]
+    },
+    {
+      "id": "bone_dry",
+      "title": "And They Say Texas Is a Bone Dry State!",
+      "boxes": [
+        {
+          "id": "bone_all",
+          "role": "body",
+          "bbox": [
+            588,
+            1408,
+            158,
+            256
+          ],
+          "text": "Headline and body, down to the footer."
+        }
+      ]
+    }
+  ],
+  "not_a_story": [
+    {
+      "id": "prices",
+      "role": "banner",
+      "bbox": [
+        62,
+        18,
+        300,
+        100
+      ],
+      "text": "Today's Prices. Not a story."
+    },
+    {
+      "id": "masthead",
+      "role": "banner",
+      "bbox": [
+        370,
+        16,
+        700,
+        108
+      ],
+      "text": "El Paso Herald, and the dateline El Paso, Texas, Friday evening, August 20, 1920. Not a story."
+    },
+    {
+      "id": "home_edition",
+      "role": "banner",
+      "bbox": [
+        1108,
+        16,
+        330,
+        100
+      ],
+      "text": "Home Edition and the weather. Not a story."
+    },
+    {
+      "id": "footer",
+      "role": "banner",
+      "bbox": [
+        70,
+        1670,
+        1360,
+        55
+      ],
+      "text": "Adequate Public Recreation Facilities In A City Are A Sound Business Investment. Not a story."
+    }
+  ]
+}

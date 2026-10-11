@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "id": "en_invoice",
+      "path": "documents/en/invoice.png",
+      "language": "en",
+      "doc_class": "invoice"
+    },
+    {
+      "id": "en_warehouse_receipt",
+      "path": "documents/en/warehouse_receipt.png",
+      "language": "en",
+      "doc_class": "warehouse_receipt"
+    },
+    {
+      "id": "ta_invoice",
+      "path": "documents/ta/invoice.png",
+      "language": "ta",
+      "doc_class": "invoice"
+    },
+    {
+      "id": "ta_warehouse_receipt",
+      "path": "documents/ta/warehouse_receipt.png",
+      "language": "ta",
+      "doc_class": "warehouse_receipt"
+    },
+    {
+      "id": "ar_invoice",
+      "path": "documents/ar/invoice.png",
+      "language": "ar",
+      "doc_class": "invoice"
+    },
+    {
+      "id": "ar_warehouse_receipt",
+      "path": "documents/ar/warehouse_receipt.png",
+      "language": "ar",
+      "doc_class": "warehouse_receipt"
+    },
+    {
+      "id": "mixed_tax_invoice",
+      "path": "documents/mixed/tax_invoice_en_ar.png",
+      "language": "en+ar",
+      "doc_class": "invoice"
+    }
+  ]
+}

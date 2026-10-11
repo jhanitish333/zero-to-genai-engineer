@@ -1,0 +1,4 @@
+{
+  "doc_class": ["invoice", "warehouse_receipt", "unknown"],
+  "language": ["en", "ta", "ar", "en+ar"]
+}
